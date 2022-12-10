@@ -66,6 +66,26 @@
 }
 
 
+.maintextl{
+    width: 50vw;
+    height: 80vh;
+}
+.maintextl p{
+    font-weight: 500;
+    padding-top: 20vh;
+    padding-left: 5vw;
+}
+.maintextl h2{
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+    font-weight: 500;  
+}
+.maintextl ul{
+    margin-left: 5vw;
+}
+
+
 .maintextr{
     width: 50vw;
     height: 80vh;
@@ -73,36 +93,22 @@
 .maintextr p{
     font-weight: 500;
     padding-top: 20vh;
-    padding-left: 5vw;
+    padding-right: 5vw;
 }
-.maintextr button{
-    text-decoration: none;
-    font-weight: 700;
-    outline: none;
-    letter-spacing: 2px;
-    border: 0;
-    cursor: pointer;
-    text-transform: uppercase;
-    border-radius: 3px;
-    box-shadow: 0px 0px 3px 0px #2f69e7;
-    background-color: #407BFF;
-    margin-top: 12vh;
-    margin-left: 5vw;
-    padding: 2%;
+.maintextr h2{
+    margin-top: 2vh;
+    margin-right: 5vw;
+    margin-bottom: 2vh;
+    font-weight: 500;  
 }
-.maintextr button:hover{
-    color: whitesmoke;
-    transition-duration: 00.5s;
-}
-
-
-.maintextl{
-    width: 50vw;
-    height: 80vh;
+.maintextr ul{
+    margin-right: 5vw;
 }
 .imgr{
-    padding-top: 18vh;
-    width: 45vw;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    width: 35vw;
+    height: 60vh;
 }
 
 .transicao{
@@ -114,6 +120,26 @@
     background-color: #407BFF;
     margin: 4vh;
     height: 1vh;
+}
+
+button{
+    text-decoration: none;
+    font-weight: 700;
+    outline: none;
+    letter-spacing: 2px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px 0px #2f69e7;
+    background-color: #407BFF;
+    margin-top: 5vh;
+    padding: 2%;
+    padding: 1vw 8vw;
+}
+button:hover{
+    color: whitesmoke;
+    transition-duration: 00.5s;
 }
 
 
@@ -129,8 +155,10 @@
     height: 100vh;
 }
 .imgl{
-    margin-left: 3vw;
-    width: 90%;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    width: 35vw;
+    height: 60vh;
 }
 
 
